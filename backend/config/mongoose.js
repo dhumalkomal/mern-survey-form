@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 
 // Define the MongoDB connection URI
   // Connection URL for the MongoDB database
- const mongoURL= 'mongodb://127.0.0.1:27017/survey_db';
+ const mongoURL= 'mongodb+srv://habit:habit123@cluster0.krqzlcy.mongodb.net/habits-tracker?retryWrites=true&w=majority';
 
 // Get the default connection
 const db =  mongoose.connection;
